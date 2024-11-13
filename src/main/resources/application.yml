@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: springbatch-db-csv
+  main:
+      web-application-type: none
+  batch:
+    jdbc:
+      initialize-schema: always
+
+ccs:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521/FREEPDB1
+    username: system
+    password: password
